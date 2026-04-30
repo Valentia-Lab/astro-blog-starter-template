@@ -1,9 +1,3 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
@@ -17,21 +11,51 @@
 		0 16px 32px rgba(var(--gray), 33%);
 }
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-regular.woff") format("woff");
+	font-family: "Inter";
+	src: url("/fonts/Inter_18pt-Regular.ttf") format("truetype");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
+	font-family: "Inter";
+	src: url("/fonts/Inter_18pt-Bold.ttf") format("truetype");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
+
+@font-face {
+	font-family: "Inter";
+	src: url("/fonts/Inter_18pt-Italic.ttf") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "LexendDeca";
+	src: url("/fonts/LexendDeca-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "LexendDeca";
+	src: url("/fonts/LexendDeca-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "LexendDeca";
+	src: url("/fonts/LexendDeca-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
 body {
-	font-family: "Atkinson", sans-serif;
+	font-family: "Inter", sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -58,6 +82,7 @@ h6 {
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
+	font-family: 'LexendDeca';
 }
 h1 {
 	font-size: 3.052em;
